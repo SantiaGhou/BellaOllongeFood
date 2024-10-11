@@ -1,0 +1,33 @@
+.header {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 400; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    background-color: #ffffff; 
+    color: #252B42; 
+}
+
+.logo {
+    height: auto; 
+    max-width: 220px;
+    padding-left: 100px;
+}
+
+.nav-list {
+    list-style: none; 
+    display: flex;
+    gap: 100px; 
+    padding-right: 100px;   
+}
+
+.nav-list li {
+    cursor: pointer; 
+    transition: color 0.3s; 
+    font-weight: 700; 
+}
+
+.nav-list li:hover {
+    color: #FA4A0C; 
+}

@@ -1,0 +1,306 @@
+.home-banner{
+    background-image: url(../components/backgroundfoodhome.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-banner-content{
+    text-align: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.home-banner-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.home-banner-content h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.home-banner-content h6{
+    font-size:20px ;
+}
+
+.home-banner-content-button{
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 20px 90px;
+    border-radius: 40px;
+    text-decoration: none;
+    margin:40px;
+    font-weight: 700;
+    border: 2px solid #ffffff;
+    transition: background-color 0.2s ease, border-color 0.2s ease; 
+    transition-delay: 0.2s; 
+}
+
+.home-banner-content-button:hover{
+    background-color: #FA4A0C;
+    color: rgb(255, 255, 255);
+    border-color: #FA4A0C;
+    transition-delay: 0s;
+}
+
+.mobile-icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.mobile-icons-image {
+    max-width: 100%;
+    height: auto;
+}
+
+hr{
+    border-color:#aaa;
+    box-sizing:border-box;
+    width:60%;  
+}
+
+.app-works-title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+
+.create-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+    flex-direction: row; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.create-account-text {
+    max-width: 50%;
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.create-account-text h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #FA4A0C;
+}
+
+.create-account-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.create-account-text h6 {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.create-account-image {
+    width: 40%;
+    height: auto;
+    order: 2; /* Imagem à direita */
+}
+
+@media (max-width: 768px) {
+    .create-account {
+        flex-direction: column; /* Alinha os itens em coluna em telas menores */
+        text-align: center;
+    }
+
+    .create-account-text {
+        max-width: 100%;
+        text-align: center; /* Centraliza os textos em telas menores */
+    }
+
+    .create-account-image {
+        width: 60%;
+    }
+}
+
+
+
+.varietes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+.varietes-text {
+    max-width: 50%;
+    text-align: left; 
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.varietes-text h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #FA4A0C;
+}
+
+.varietes-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.varietes-text h6 {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.varietes-image {
+    width: 40%;
+    height: auto;
+    order: 1; /* Imagem à esquerda */
+}
+
+@media (max-width: 768px) {
+    .varietes {
+        flex-direction: column; /* Alinha os itens em coluna em telas menores */
+        text-align: center;
+    }
+
+    .varietes-text {
+        max-width: 100%;
+        text-align: center; /* Centraliza os textos em telas menores */
+    }
+
+    .varietes-image {
+        width: 60%;
+    }
+}
+
+.checkout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+    flex-direction: row; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.checkout-text {
+    max-width: 50%;
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.checkout-text h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #FA4A0C;
+}
+
+.checkout-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.checkout-text h6 {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.checkout-image {
+    width: 40%;
+    height: auto;
+    order: 2; 
+}
+
+@media (max-width: 768px) {
+    .checkout {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .checkout-text {
+        max-width: 100%;
+        text-align: center; 
+    }
+
+    .checkout-image {
+        width: 60%;
+    }
+}
+.download-app-banner{
+    background-image: url(../components/backgrounddownload.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-app-banner-content{
+    text-align: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.download-app-bannerr-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.download-app-banner-content h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.download-app-banner-content h6{
+    font-size:20px ;
+}
+
+.download-app-banner-content-button{
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 20px 90px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin:40px;
+    font-weight: 700;
+    border: 2px solid #ffffff;
+    transition: background-color 0.2s ease, border-color 0.2s ease; 
+    transition-delay: 0.2s; 
+}
+
+.download-app-banner-content-button:hover{
+    background-color: #FA4A0C;
+    color: rgb(255, 255, 255);
+    border-color: #FA4A0C;
+    transition-delay: 0s;
+}
